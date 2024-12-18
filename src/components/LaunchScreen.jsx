@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { logAnalyticsEvent } from '../firebase';
-import first from "../assets/updated/bg.png"; // Ensure your assets are imported correctly
+import first from "../assets/updated/bg.png";
 import buk from "../assets/updated/buk.png";
 import icon1 from "../assets/updated/icon1.png";
 import icon2 from "../assets/updated/icon2.png";
@@ -170,7 +170,7 @@ const LaunchScreen = ({ onNavigate, nftData, setTokenID, tokenID, setTotalPrice 
             <div className="flex">
               <div className="flex-col flex">
                 <img src={icon2} alt="" className="md:w-8 md:h-8 sm:w-6 sm:h-6" />
-                <p className="md::text-xs sm:text-[7px] text-white mt-2">Check Out</p>
+                <p className="md:text-xs sm:text-[7px] text-white mt-2">Check Out</p>
                 <p className="md:text-xs sm:text-[8px] text-[#FFC4BB] md:mt-1">{formattedDateCheckOut}</p>
               </div>
               <img src={vline} alt="" className="w-[1.5px] md:h-[73px] sm:h-[50px] m-2" />
